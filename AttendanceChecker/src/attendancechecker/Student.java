@@ -1,18 +1,18 @@
 package attendancechecker;
 
 /**
- *
- * @author angela
+ * Class stores information about student
  */
 public class Student {
 
     private int numberID;
     private String firstName;
     private String lastName;
-    
+
     /**
      * Get student number
-     * @return 
+     *
+     * @return
      */
     public int getNumberID() {
         return numberID;
